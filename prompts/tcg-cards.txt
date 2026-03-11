@@ -1,0 +1,23 @@
+generate a script to create a table for microsoft sql server.
+
+connect to the tables with a foreign key.
+
+the first table, to be named tbl_Cards, is to store pokémon tcg cards. it will store these informations:
+-id
+-hp
+-name
+-type
+-stage
+-info
+-attack
+-damage
+-weakness
+-resistance
+-retreat cost
+-card number in collection
+
+the second table, to be named tbl_Collections, is to store the collection set in wich the card is from. it will store these informations:
+-id
+-collection set name
+-release date
+-total cards in collection
